@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+	--dark: #0d2a3d;
+	--light: #bad8ec;
+}
+
+header {
+	text-align: center;
+	background-color: var(--dark);
+	padding: 1rem;
+	box-shadow: 0rem 0.5rem 0.5rem #00000075;
+}
+
+header * {
+	color: var(--light);
+}
+
+main {
+	background-color: var(--light);
+	padding: 1rem;
+	color: var(--dark);
+	border-bottom: 0.1rem solid var(--dark);
+	margin: 1rem;
+	box-shadow: 0rem 0rem 0.5rem #00000075;
+}
+
+body {
+	background-image: url(record.png);
+	background-position: center center;
+}
