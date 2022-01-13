@@ -20,9 +20,13 @@ header * {
 	color: var(--light);
 }
 
+.heading {
+	text-decoration: underline;
+}
+
 main {
 	background-color: var(--light);
-	padding: 1rem;
+	padding: 1em;
 	color: var(--dark);
 	border-bottom: 0.1rem solid var(--dark);
 	margin: 1rem;
