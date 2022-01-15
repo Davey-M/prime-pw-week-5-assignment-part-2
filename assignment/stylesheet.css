@@ -9,14 +9,20 @@
 	--light: #bad8ec;
 }
 
-header {
+body {
+	margin: 0;
+	background-image: url(record.png);
+	background-position: center center;
+}
+
+.header-el {
 	text-align: center;
 	background-color: var(--dark);
 	padding: 1rem;
 	box-shadow: 0rem 0.5rem 0.5rem #00000075;
 }
 
-header * {
+.header-el * {
 	color: var(--light);
 }
 
@@ -24,16 +30,11 @@ header * {
 	text-decoration: underline;
 }
 
-main {
+.main-content {
 	background-color: var(--light);
 	padding: 1em;
 	color: var(--dark);
 	border-bottom: 0.1rem solid var(--dark);
 	margin: 1rem;
 	box-shadow: 0rem 0rem 0.5rem #00000075;
-}
-
-body {
-	background-image: url(record.png);
-	background-position: center center;
 }
